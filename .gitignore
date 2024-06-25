@@ -1,0 +1,66 @@
+# Build Folders (faster builds, but can be ignored)
+bin/
+obj/
+
+# NuGet Packages
+*.nupkg
+# The packages folder can be ignored because of Package Restore
+**/packages
+# Uncomment if necessary however generally it will be restored before use
+# **/packages/*
+# Uncomment if using the old MSBuild directory structure
+# src/**/packages
+# Uncomment if using the new MSBuild directory structure
+# **/obj/*.nuget.g.props
+# **/obj/*.nuget.g.targets
+
+# MSTest test Results
+TestResults
+*.trx
+*.coverage
+
+# Nunit
+*.VisualState.xml
+TestResult.xml
+
+# SpecFlow
+*.feature.cs
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# StyleCop
+StyleCopReport.xml
+
+# Files built by Visual Studio
+.vscode/
+.vscode/*
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Mono Auto Generated Files
+mono_crash.*
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# VS Code directories
+.vscode/
+.vscode/*
+history/
+.history/
+
+# macOS specific files
+.DS_Store

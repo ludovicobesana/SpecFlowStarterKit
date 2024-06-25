@@ -1,0 +1,9 @@
+{
+    "language": {
+      "feature": "en"
+    },
+    "unitTestProvider": {
+      "name": "nunit"
+    }
+  }
+  
